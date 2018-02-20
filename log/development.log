@@ -1,0 +1,1664 @@
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:03:56 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (172.3ms)
+Completed 500 Internal Server Error in 401ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `stringify_path' for #<#<Class:0x007fcf7e3a22d0>:0x007fcf7e3786b0>
+Did you mean?  strip_tags):
+     7: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     8: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     9: <!-- CONFUSING CODE, DO NOT MODIFY -->
+    10: <%= form_tag stringify_path do %>
+    11:   <%= label_tag :name, "Your Name here!" %>
+    12:   <%= text_area_tag :name %>
+    13:   <%= label_tag :adjective, "An adjective here!" %>
+  
+app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb__2089014794546221583_70264564322820'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:28:57 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (187.7ms)
+Completed 500 Internal Server Error in 431ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `stringify_path' for #<#<Class:0x007f81bfa7aba0>:0x007f81bfa5bb60>
+Did you mean?  strip_tags):
+     7: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     8: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     9: <!-- CONFUSING CODE, DO NOT MODIFY -->
+    10: <%= form_tag stringify_path do %>
+    11:   <%= label_tag :name, "Your Name here!" %>
+    12:   <%= text_area_tag :name %>
+    13:   <%= label_tag :adjective, "An adjective here!" %>
+  
+app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb__4165991964154573478_70097609133200'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:29:53 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (175.1ms)
+Completed 500 Internal Server Error in 406ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `stringify_path' for #<#<Class:0x007fadf8e27bf8>:0x007fadf8e1d860>
+Did you mean?  strip_tags):
+     7: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     8: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     9: <!-- CONFUSING CODE, DO NOT MODIFY -->
+    10: <%= form_tag stringify_path do %>
+    11:   <%= label_tag :name, "Your Name here!" %>
+    12:   <%= text_area_tag :name %>
+    13:   <%= label_tag :adjective, "An adjective here!" %>
+  
+app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb___4394078078146803962_70192613642160'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:37:11 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (170.7ms)
+Completed 500 Internal Server Error in 400ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `stringify_path' for #<#<Class:0x007fe9f879aa10>:0x007fe9f8788248>
+Did you mean?  strip_tags):
+     7: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     8: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     9: <!-- CONFUSING CODE, DO NOT MODIFY -->
+    10: <%= form_tag stringify_path do %>
+    11:   <%= label_tag :name, "Your Name here!" %>
+    12:   <%= text_area_tag :name %>
+    13:   <%= label_tag :adjective, "An adjective here!" %>
+  
+app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb___4090443050318984007_70321433254780'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:39:46 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (166.4ms)
+Completed 500 Internal Server Error in 311ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `stringify_path' for #<#<Class:0x007ffdcb8f2ed0>:0x007ffdcb8e05c8>
+Did you mean?  strip_tags):
+     7: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     8: <!-- CONFUSING CODE, DO NOT MODIFY -->
+     9: <!-- CONFUSING CODE, DO NOT MODIFY -->
+    10: <%= form_tag stringify_path do %>
+    11:   <%= label_tag :name, "Your Name here!" %>
+    12:   <%= text_area_tag :name %>
+    13:   <%= label_tag :adjective, "An adjective here!" %>
+  
+app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb__1399505349434102176_70363994191640'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:40:20 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 627ms (Views: 477.3ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:40:40 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yoUSrjfVDg8SoBcWOn0XxVHZIllpvs+QaMKEAen9WbYD3+ecmUMMhdCjfPojJXYCwETKWy74vIXpMNAeH6XcUA==", "name"=>"Akash", "adjective"=>"amazing", "commit"=>"Stringify!"}
+Completed 500 Internal Server Error in 6ms
+
+
+  
+SyntaxError (/Users/akash/Documents/Ruby/sp18-hw2/app/controllers/concerns/stringify.rb:14: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/stringify.rb:14: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:6:in `stringify'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:44:52 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 28ms (Views: 25.1ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:44:56 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XwWFcbz6xBzCIEi/oa9U5SQnojMoaIzUYpMMBFf+xwaWX3BDEmzGlgAjI1O49zUitbpKMW8u/8HjYVgboaZC4A==", "name"=>"jo", "adjective"=>"32", "commit"=>"Stringify!"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+SyntaxError (/Users/akash/Documents/Ruby/sp18-hw2/app/controllers/concerns/stringify.rb:14: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/stringify.rb:14: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:6:in `stringify'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:46:37 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 472ms (Views: 246.2ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:46:48 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BwB0k1XdMe+ey6j555oD3Xm0iHCXwz7hm2NZmrUqbfDOWoGh+0szZVzIwxX+wmIa6ClgctCFTfQakQ2FQ3LoFg==", "name"=>"sdflkj", "adjective"=>"sdflkj", "commit"=>"Stringify!"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/Users/akash/Documents/Ruby/sp18-hw2/app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:6:in `stringify'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:49:31 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 614ms (Views: 275.2ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:49:44 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SlMZb3W/2j2/jdXqos7VfABoNVPwck9W4kz7oCKcMB+DCexd2ynYt32Ovga7lrS7kfXdUbc0PENjvq+/1MS1+Q==", "name"=>"123", "adjective"=>"345", "commit"=>"Stringify!"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/Users/akash/Documents/Ruby/sp18-hw2/app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:6:in `stringify'
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:50:22 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SlMZb3W/2j2/jdXqos7VfABoNVPwck9W4kz7oCKcMB+DCexd2ynYt32Ovga7lrS7kfXdUbc0PENjvq+/1MS1+Q==", "name"=>"123", "adjective"=>"345", "commit"=>"Stringify!"}
+Completed 500 Internal Server Error in 144ms
+
+
+  
+SyntaxError (/Users/akash/Documents/Ruby/sp18-hw2/app/controllers/concerns/stringify.rb:16: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/stringify.rb:16: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:6:in `stringify'
+Started POST "/__web_console/repl_sessions/a4baa09fdd5f53a3da7ce53653dc3261/trace" for 127.0.0.1 at 2018-02-18 20:50:24 -0800
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:54:03 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 445ms (Views: 219.8ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:54:09 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o264G1iY3Ur5GGzbsjnh5FehLnlz62iZZyfRtyocK55qNE0p9g7fwDsbBzerYYAjxjzGezStG4zm1YWo3ESueA==", "name"=>"123", "adjective"=>"345", "commit"=>"Stringify!"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/Users/akash/Documents/Ruby/sp18-hw2/app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:6:in `stringify'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:54:45 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 481ms (Views: 236.9ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:54:51 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZVZndVW4jOnUwfU9jw5BqZ6anhQMNyzHFXkTTXBrGXGsDJJH+y6OYxbCntGWViBuDwd2FktxX9KUi0dShjOclw==", "name"=>"123", "adjective"=>"456", "commit"=>"Stringify!"}
+Completed 500 Internal Server Error in 2ms
+
+
+  
+SyntaxError (/Users/akash/Documents/Ruby/sp18-hw2/app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/concerns/stringify.rb:15: syntax error, unexpected end-of-input, expecting keyword_end
+app/controllers/pages_controller.rb:6:in `stringify'
+Started GET "/" for 127.0.0.1 at 2018-02-18 20:56:13 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 338ms (Views: 177.3ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-18 20:56:16 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6wt9RAbFs/MtTOhRyz2EX5NHXQy/EiFueko9tpTM9MMiUYh2qFOxee9Pg73SZeWYAtq1DvhUUnv7uGmpYpRxJQ==", "name"=>"123", "adjective"=>"345", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:11:22 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 434ms (Views: 217.9ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 18:11:27 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFuTQ/B/jZ267OtnFkJIlwKZwwYG5ohMwnImeADIK7eNAWZxXumPF3jvgIsPGilQkwQrBEGg+1lDgHJn9pCuUQ==", "name"=>"123", "adjective"=>"456", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 17.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:20:39 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 23.2ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 18:20:44 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3St+x/w2AjPffy8ZWzn7t/KsavtpNk86nqyUK/Me/NQUcYv1UqAAuR18RPVCYZpwYzGC+S5wPC8fXsA0BUZ5Mg==", "name"=>"123", "adjective"=>"89", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 18.7ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 18:20:51 -0800
+  
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:22:39 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 311ms (Views: 178.8ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 18:22:42 -0800
+  
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:23:01 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 333ms (Views: 183.6ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 18:23:08 -0800
+  
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:25:18 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 323ms (Views: 184.4ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 18:25:22 -0800
+  
+ActionController::RoutingError (No route matches [PUT] "/age"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:27:57 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 445ms (Views: 214.6ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 18:28:01 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LvPP9Dg/M0qAcWvq7MmHTMEwcH4mjTIuf/qJa+lwJ43nqTrGlqkxwEJyAAb1keaLUK2YfGHLQTv+CN10Hyiiaw==", "name"=>"joe", "age"=>"12", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 16.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:33:00 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 584ms (Views: 280.2ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 18:33:08 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iEvLBaLad1GYZRiVvXIQ82F0H0wdIpiOWXOA9NtTQJxBET43DEx121pmc3mkKnE08On3Tlpk65vYgdTrLQvFeg==", "name"=>"Hello", "age"=>"22", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 15.9ms)
+
+
+Started GET "/age" for 127.0.0.1 at 2018-02-19 18:39:58 -0800
+  
+SyntaxError (/Users/akash/Documents/RubyHw2/sp18-hw2/config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get '/me' to: 'pages#me'
+              ^):
+  
+config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/age" for 127.0.0.1 at 2018-02-19 18:40:10 -0800
+  
+SyntaxError (/Users/akash/Documents/RubyHw2/sp18-hw2/config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  get 'me' to: 'pages#me'
+             ^):
+  
+config/routes.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+Started GET "/age" for 127.0.0.1 at 2018-02-19 18:40:25 -0800
+Processing by PagesController#age as HTML
+  Rendering pages/age.html.erb within layouts/application
+  Rendered pages/age.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:40:29 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:40:47 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 21.9ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:40:50 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 26.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:44:27 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 28.3ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:45:43 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 27.0ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:45:46 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 18.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:46:17 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 20.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:46:23 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.3ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:46:25 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 20.9ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:47:08 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 14.3ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:47:50 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 14.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:47:52 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 15.5ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:48:06 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.0ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:48:53 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 448ms (Views: 214.5ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:54:06 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 30.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:54:08 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 15.3ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:54:44 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 17ms (Views: 14.5ms)
+
+
+Started GET "/me.css.erb" for 127.0.0.1 at 2018-02-19 18:54:44 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/me.css.erb"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:54:47 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 15.7ms)
+
+
+Started GET "/me.css.erb" for 127.0.0.1 at 2018-02-19 18:54:47 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/me.css.erb"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:55:05 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 17.7ms)
+
+
+Started GET "/app/views/pages/me.css" for 127.0.0.1 at 2018-02-19 18:55:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/app/views/pages/me.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 18:59:30 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (74.5ms)
+Completed 500 Internal Server Error in 82ms
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( me.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <head>
+    2:     <%= stylesheet_link_tag 'me' %>
+    3:     <title>All about Akash</title>
+    4: </head>
+    5: <h1 class = "Intro"> Welcome! </h1>
+  
+app/views/pages/me.html.erb:2:in `_app_views_pages_me_html_erb__17326252549062015_70295498728100'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:00:36 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (181.6ms)
+Completed 500 Internal Server Error in 429ms
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( me.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <head>
+    2:     <%= stylesheet_link_tag 'me' %>
+    3:     <title>All about Akash</title>
+    4: </head>
+    5: <h1 class = "Intro"> Welcome! </h1>
+  
+app/views/pages/me.html.erb:2:in `_app_views_pages_me_html_erb___4223570765888162730_70105095906780'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:01 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (151.7ms)
+Completed 200 OK in 340ms (Views: 204.8ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:03 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 17.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:05 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 17.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:31 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 30ms (Views: 27.1ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:43 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 31ms (Views: 28.8ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:44 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 41ms (Views: 38.0ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:51 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 36ms (Views: 33.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:01:53 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 22ms (Views: 20.1ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:02:09 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 37ms (Views: 34.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:02:29 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 32ms (Views: 29.8ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:02:43 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 42ms (Views: 39.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:02:45 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 25ms (Views: 22.3ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:02:51 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 38ms (Views: 35.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:02:58 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 34ms (Views: 32.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:03:23 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 34ms (Views: 31.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:05:44 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 118ms (Views: 110.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:05:47 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 29ms (Views: 25.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:06:12 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 83ms (Views: 80.4ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:06:30 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 55ms (Views: 52.5ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:08:35 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 53ms (Views: 50.3ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:08:35 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:09:30 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 41ms (Views: 38.4ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:09:30 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:09:32 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 19.1ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:09:32 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:09:46 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 37ms (Views: 34.4ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:09:46 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:09:48 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 17.9ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:09:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:09:50 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 21ms (Views: 19.1ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:09:51 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:10:37 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 37ms (Views: 34.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:10:42 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 20ms (Views: 17.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:10:49 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 33ms (Views: 30.6ms)
+
+
+Started GET "/Web/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:10:49 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/Web/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:11:38 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:11:38 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:11:40 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 19ms (Views: 16.9ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:11:41 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:11:54 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 21ms (Views: 18.6ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:11:54 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:11:57 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 26ms (Views: 24.3ms)
+
+
+Started GET "/images/background.jpg" for 127.0.0.1 at 2018-02-19 19:11:58 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/images/background.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:12:58 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 34ms (Views: 31.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:14:00 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 34ms (Views: 32.3ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:14:19 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 44ms (Views: 42.0ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:14:26 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 44ms (Views: 41.8ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:14:50 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 39ms (Views: 36.4ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:16:39 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 53ms (Views: 49.1ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:17:20 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 39ms (Views: 36.8ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:17:45 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 39ms (Views: 37.1ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:18:08 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 32ms (Views: 29.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:18:24 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 44ms (Views: 41.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:20:28 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 32ms (Views: 29.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:20:44 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 43ms (Views: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:28:33 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 483ms (Views: 252.7ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:28:55 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F0mpft6zsgoVu+x5u9VteurPCROXgUESG89APOCikZ7eE1xMcCWwgNe4h5WijQy9e1LhEdDHMgeaPRQjFvoUeA==", "name"=>"akash", "adjective"=>"awesome", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 15.0ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:29:00 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F0mpft6zsgoVu+x5u9VteurPCROXgUESG89APOCikZ7eE1xMcCWwgNe4h5WijQy9e1LhEdDHMgeaPRQjFvoUeA==", "name"=>"Joe", "age"=>"21", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:30:49 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 319ms (Views: 180.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:31:03 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 311ms (Views: 179.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:32:21 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 45ms (Views: 42.4ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:32:26 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9C0JLvKbHOl809OAR2uc6apBwM6VC+GL9M2KmNCUb8E9d/wcXA0eY77QuGxeM/0uO9wozNJNkp51P96HJszqJw==", "name"=>"akash", "adjective"=>"awesome", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 16.7ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:32:30 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9C0JLvKbHOl809OAR2uc6apBwM6VC+GL9M2KmNCUb8E9d/wcXA0eY77QuGxeM/0uO9wozNJNkp51P96HJszqJw==", "name"=>"Akash", "age"=>"18", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 15.6ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:32:34 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 22ms
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( me.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <html class="ME">
+    2: <head>
+    3:     <%= stylesheet_link_tag 'me' %>
+    4: </head>
+    5: <h1 class = "Intro"> Welcome! </h1>
+    6: <body>
+  
+app/views/pages/me.html.erb:3:in `_app_views_pages_me_html_erb__1289508383065964459_70132099037340'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:32:57 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (181.2ms)
+Completed 200 OK in 449ms (Views: 215.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:33:01 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 24ms (Views: 21.4ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:33:06 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KiHHU27czWxHmF9BwuzZ2349vnBrhZ0xPZ0VuDsz4prjezJhwErP5oWbNK3btLgc76BWcizD7iS8b0GnzWtnfA==", "name"=>"Aash", "adjective"=>"weird", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 16.0ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:33:10 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KiHHU27czWxHmF9BwuzZ2349vnBrhZ0xPZ0VuDsz4prjezJhwErP5oWbNK3btLgc76BWcizD7iS8b0GnzWtnfA==", "name"=>"Joe", "age"=>"21", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:34:03 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 332ms (Views: 174.1ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:34:09 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RuL3PFSVSXrgI0q3NAuf4yD52QtT5uukgNlZr3UB1ymPuAIO+gNL8CIgIVstU/4ksWQxCRSgmLEBKw2wg1lSzw==", "name"=>"Akash", "adjective"=>"awesome", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 16.6ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:34:14 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RuL3PFSVSXrgI0q3NAuf4yD52QtT5uukgNlZr3UB1ymPuAIO+gNL8CIgIVstU/4ksWQxCRSgmLEBKw2wg1lSzw==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.0ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:34:17 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RuL3PFSVSXrgI0q3NAuf4yD52QtT5uukgNlZr3UB1ymPuAIO+gNL8CIgIVstU/4ksWQxCRSgmLEBKw2wg1lSzw==", "name"=>"Akash", "age"=>"21", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 17.7ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:34:21 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RuL3PFSVSXrgI0q3NAuf4yD52QtT5uukgNlZr3UB1ymPuAIO+gNL8CIgIVstU/4ksWQxCRSgmLEBKw2wg1lSzw==", "name"=>"Akash", "age"=>"18", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 17.1ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:34:26 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 23ms (Views: 19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:35:56 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 538ms (Views: 287.8ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:35:59 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NiHboLqIaOwDE1JOb3rLi7KfPxLhZOQA2m7BZlMw9oL/ey6SFB5qZsEQOaJ2IqpMIwLXEKYilxVbnJV5pWhzZA==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 15.4ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:36:01 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NiHboLqIaOwDE1JOb3rLi7KfPxLhZOQA2m7BZlMw9oL/ey6SFB5qZsEQOaJ2IqpMIwLXEKYilxVbnJV5pWhzZA==", "name"=>"", "age"=>"", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 21.3ms)
+
+
+Started GET "/mr" for 127.0.0.1 at 2018-02-19 19:36:05 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/mr"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:36:07 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 22ms (Views: 18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:45:16 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 348ms (Views: 218.2ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:45:20 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1az7cS5Dd337DBfV9OkmkP8GbQbBPoGlFuU4BTpScNgc9g5DgNV19zkPfDntsUdXbpuFBIZ48rCXF2wazAr1Pg==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 15.7ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:45:23 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1az7cS5Dd337DBfV9OkmkP8GbQbBPoGlFuU4BTpScNgc9g5DgNV19zkPfDntsUdXbpuFBIZ48rCXF2wazAr1Pg==", "name"=>"akash", "adjective"=>"G", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 17.2ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:45:29 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1az7cS5Dd337DBfV9OkmkP8GbQbBPoGlFuU4BTpScNgc9g5DgNV19zkPfDntsUdXbpuFBIZ48rCXF2wazAr1Pg==", "name"=>"Post", "age"=>"21", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 17.7ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:45:34 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 24ms (Views: 21.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-19 19:57:32 -0800
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 325ms (Views: 173.5ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:57:36 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hrqk4feAx9X/8tPfmrO3BJy/Wrd5fPzq/MixL+caDNHX4FHTWRbFXz3xuDOD69bDDSKytT46j/99OuUwEUKJNw==", "name"=>"akash", "adjective"=>"cool\r\n", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 16.4ms)
+
+
+Started POST "/stringify" for 127.0.0.1 at 2018-02-19 19:57:41 -0800
+Processing by PagesController#stringify as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hrqk4feAx9X/8tPfmrO3BJy/Wrd5fPzq/MixL+caDNHX4FHTWRbFXz3xuDOD69bDDSKytT46j/99OuUwEUKJNw==", "name"=>"", "adjective"=>"", "commit"=>"Stringify!"}
+  Rendering pages/stringify.html.erb within layouts/application
+  Rendered pages/stringify.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 16.6ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:57:45 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hrqk4feAx9X/8tPfmrO3BJy/Wrd5fPzq/MixL+caDNHX4FHTWRbFXz3xuDOD69bDDSKytT46j/99OuUwEUKJNw==", "name"=>"Akash", "age"=>"17", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 14.9ms)
+
+
+Started PUT "/age" for 127.0.0.1 at 2018-02-19 19:57:50 -0800
+Processing by PagesController#person as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hrqk4feAx9X/8tPfmrO3BJy/Wrd5fPzq/MixL+caDNHX4FHTWRbFXz3xuDOD69bDDSKytT46j/99OuUwEUKJNw==", "name"=>"Akash", "age"=>"19", "commit"=>"Submit!"}
+  Rendering pages/person.html.erb within layouts/application
+  Rendered pages/person.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 17.0ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2018-02-19 19:57:54 -0800
+Processing by PagesController#me as HTML
+  Rendering pages/me.html.erb within layouts/application
+  Rendered pages/me.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 21ms (Views: 18.7ms)
+
+
